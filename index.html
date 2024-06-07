@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -19,37 +17,71 @@
     <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
   <body>
-    Join our community
+    <main>
+      <h1 class="main__title">Single Price Grid Component</h1>
+      <section class="subscription">
+        <header class="subscription__header">
+          <h2 class="subscription__header-title">Join our community</h2>
+          <p class="subscription__guarantee">
+            30-day, hassle-free money back guarantee
+          </p>
+          <p class="subscription__header-description">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </header>
 
-    30-day, hassle-free money back guarantee 
-    
-    Gain access to our full library of tutorials along with expert code reviews. 
-    Perfect for any developers who are serious about honing their skills.
-    
-    Monthly Subscription
-    
-    &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
+        <section class="subscription__call-to-action">
+          <h3 class="subscription__section-title">Monthly Subscription</h3>
+          <p class="subscription__price">
+            <span class="subscription__price-amount">&dollar;29</span> per month
+          </p>
+          <p class="subscription__description">
+            Full access for less than &dollar;1 a day
+          </p>
+          <button
+            class="subscription__sign-up-button"
+            aria-label="Sign up for a monthly subscription"
+          >
+            Sign Up
+          </button>
+        </section>
+        <section class="subscription__benefits">
+          <h3 class="subscription__section-title">Why Us</h3>
+          <ul class="subscription__benefits-list">
+            <li class="subscription__benefits-list-item">
+              Tutorials by industry experts
+            </li>
+            <li class="subscription__benefits-list-item">
+              Peer &amp; expert code review
+            </li>
+            <li class="subscription__benefits-list-item">Coding exercises</li>
+            <li class="subscription__benefits-list-item">
+              Access to our GitHub repos
+            </li>
+            <li class="subscription__benefits-list-item">Community forum</li>
+            <li class="subscription__benefits-list-item">Flashcard decks</li>
+            <li class="subscription__benefits-list-item">
+              New videos every week
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
 
     <footer>
       <p class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          rel="noreferrer noopener"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by
+        <a rel="noreferrer noopener" href="https://github.com/CardboardPL"
+          >CardboardPL</a
+        >.
       </p>
     </footer>
   </body>
