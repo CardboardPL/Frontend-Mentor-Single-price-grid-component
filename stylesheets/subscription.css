@@ -1,0 +1,114 @@
+.subscription {
+  color: var(--light-gray);
+  width: clamp(320px, 100%, 635px);
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: -4px;
+}
+
+.subscription > * {
+  padding: 24px 24px 31px 24px;
+}
+
+.subscription__header {
+  background-color: hsl(0, 0%, 100%);
+  color: var(--cyan);
+}
+
+.subscription__header-title {
+  font-size: 20.5px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 21px;
+}
+
+.subscription__guarantee {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--bright-yellow);
+  letter-spacing: -0.4px;
+  line-height: 1.267;
+  margin-bottom: 18px;
+}
+
+.subscription__header-description {
+  font-size: 14px;
+  line-height: 1.857;
+  letter-spacing: -0.1363636363636364px;
+}
+
+.subscription__section-title {
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  color: white;
+  margin-bottom: 9px;
+}
+
+.subscription__call-to-action {
+  background-color: var(--cyan);
+  letter-spacing: -0.1538461538461538px;
+  padding-top: 22px;
+  padding-bottom: 24px;
+}
+
+.subscription__price {
+  color: hsl(179, 61%, 64%);
+  letter-spacing: -0.1111111111111111px;
+  display: flex;
+  align-items: center;
+  margin-bottom: -1px;
+}
+
+.subscription__price-amount {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.3333333333333333px;
+  color: white;
+  margin-right: 12px;
+}
+
+.subscription__description {
+  margin-bottom: 27px;
+}
+
+.subscription__sign-up-button {
+  font: inherit;
+  font-weight: 700;
+  letter-spacing: -0.1428571428571429px;
+  color: white;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: var(--bright-yellow);
+  height: 48px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.subscription__sign-up-button:hover,
+.subscription__sign-up-button:focus {
+  opacity: 0.9;
+}
+
+.subscription__benefits {
+  background-color: rgb(74, 190, 189);
+  padding-top: 22px;
+  padding-bottom: 24px;
+}
+
+.subscription__benefits > .subscription__section-title {
+  margin-bottom: 14px;
+}
+
+.subscription__benefits > .subscription__benefits-list {
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.subscription__benefits-list-item {
+  letter-spacing: -0.103448275862069px;
+  margin-bottom: -1px;
+}
