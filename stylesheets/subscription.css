@@ -6,6 +6,7 @@
   border-radius: 4px;
   overflow: hidden;
   margin-top: -4px;
+  box-shadow: 8px 8px 16px hsla(217, 35%, 70%, 0.2);
 }
 
 .subscription > * {
@@ -86,6 +87,7 @@
   border-radius: 6px;
   cursor: pointer;
   transition: opacity 0.15s ease-in-out;
+  box-shadow: 0 0 16px hsla(217, 17%, 50%, 0.5);
 }
 
 .subscription__sign-up-button:hover,
