@@ -114,3 +114,36 @@
   letter-spacing: -0.103448275862069px;
   margin-bottom: -1px;
 }
+
+@media (min-width: 560px) {
+  .subscription {
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 8px 8px 32px hsla(217, 35%, 70%, 0.2);
+  }
+
+  .subscription > * {
+    padding: 36px 40px 38px 40px;
+  }
+
+  .subscription__header {
+    grid-column: span 2;
+  }
+
+  .subscription__header-title {
+    font-size: 24px;
+  }
+
+  .subscription__guarantee {
+    font-size: 18px;
+  }
+
+  .subscription__header-description {
+    font-size: 16px;
+  }
+
+  .subscription__call-to-action,
+  .subscription__benefits {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+}
