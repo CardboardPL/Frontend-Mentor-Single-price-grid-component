@@ -134,16 +134,19 @@
 
   .subscription__header-title {
     font-size: 24px;
+    letter-spacing: -0.2777777777777778px;
     margin-bottom: 19px;
   }
 
   .subscription__guarantee {
     font-size: 18px;
+    letter-spacing: -0.2px;
     margin-bottom: 9px;
   }
 
   .subscription__header-description {
     font-size: 16px;
+    letter-spacing: -0.1626794258373206px;
     line-height: 1.65;
   }
 
