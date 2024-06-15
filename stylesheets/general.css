@@ -37,3 +37,10 @@ main {
   min-height: 100vh;
   padding: 2rem;
 }
+
+
+@media (max-width: 559.99px) {
+  main {
+    padding: 4.75rem 2rem;
+  }
+}
